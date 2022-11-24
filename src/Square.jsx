@@ -1,9 +1,9 @@
 // import React from "react";
 
 const Square = (props) => {
-  return (
-    <div className="square">{props.var}</div>
-  );
+  console.log(props.squares, props.player);
+  
+  return <div className="square"></div>;
 };
 
 export default Square;
